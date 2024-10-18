@@ -1,1 +1,3 @@
-# restaurant-table-menu
+# Restaurant Table Menu
+
+Online Restaurant Menu
