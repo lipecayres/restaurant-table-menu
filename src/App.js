@@ -12,6 +12,8 @@ const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [activeCategory, setActiveCategory] = useState("");
+  
+  // eslint-disable-next-line no-unused-vars
   const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
