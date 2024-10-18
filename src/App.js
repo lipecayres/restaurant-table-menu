@@ -1,26 +1,31 @@
 /* eslint-disable no-undef */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import items from "./data";
 import logo from "./images/logo.jpg";
 
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
+const allCategories = [...new Set(items.map((item) => item.category))];
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [activeCategory, setActiveCategory] = useState("");
-  
+
   // eslint-disable-next-line no-unused-vars
   const [categories, setCategories] = useState(allCategories);
+
+  useEffect(() => {
+    // On component mount, filter items by the first category
+    filterItems(allCategories[0]);
+  }, []);
 
   const filterItems = (category) => {
     setActiveCategory(category);
 
-    if (category === "all") {
-      setMenuItems(items);
+    if (category === undefined) {
+      setMenuItems(allCategories[0]);
       return;
     }
 
