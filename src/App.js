@@ -1,9 +1,7 @@
-import react, { useState } from "react";
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import items from "./data";
 import logo from "./images/logo.jpg";
-import { DiVim } from "react-icons/di";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -36,7 +34,7 @@ function App() {
           activeCategory={activeCategory}
           filterItems={filterItems}
         />
-        <Menu items = {menuItems} />
+        <Menu items={menuItems} />
       </section>
     </main>
   );
