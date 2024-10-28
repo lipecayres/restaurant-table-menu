@@ -17,18 +17,14 @@ function App() {
   // eslint-disable-next-line no-unused-vars
   const [categories, setCategories] = useState(allCategories);
 
+  // On component mount, filter items by the first category
   useEffect(() => {
-    // On component mount, filter items by the first category
     filterItems(allCategories[0]);
   }, []);
 
+  // filter categories by click
   const filterItems = (category) => {
     setActiveCategory(category);
-
-    if (category === undefined) {
-      setMenuItems(allCategories[0]);
-      return;
-    }
 
     const newItems = items.filter((item) => item.category === category);
     setMenuItems(newItems);
