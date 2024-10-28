@@ -24,6 +24,10 @@ h4 {
   margin-bottom: 0.75rem;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 h3 {
   font-size: 1.25rem;
 }
@@ -128,7 +132,7 @@ p {
 .logo {
   object-fit: cover;
   height: auto;
-  width: 200px;
+  width: 600px;
   border-radius: 0.25rem;
 }
 

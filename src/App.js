@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import items from "./data";
-import logo from "./images/logo.jpg";
+import logo from "./images/glamour-logo.png";
 import Footer from "./components/Footer";
 
 const allCategories = [...new Set(items.map((item) => item.category))];
