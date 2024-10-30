@@ -7,7 +7,7 @@ const menu = [
 
   {
     id: 101,
-    title: "The Glamour",
+    title: "The Glamour (2oz)",
     category: "cocktail's",
     price: 12,
     img: "./images/cocktails/the-glamour.jpg",
@@ -16,7 +16,7 @@ const menu = [
   },
   {
     id: 102,
-    title: "Carapacho",
+    title: "Carapacho (2oz)",
     category: "cocktail's",
     price: 12,
     img: "./images/cocktails/carapacho.png",
@@ -25,7 +25,7 @@ const menu = [
   },
   {
     id: 103,
-    title: "Porto",
+    title: "Porto (2oz)",
     category: "cocktail's",
     price: 12,
     img: "./images/cocktails/porto.png",
@@ -34,7 +34,7 @@ const menu = [
   },
   {
     id: 104,
-    title: "Brazilian Flag",
+    title: "Brazilian Flag (2oz)",
     category: "cocktail's",
     price: 12,
     img: "./images/cocktails/brazilian-flag.png",
@@ -46,7 +46,7 @@ const menu = [
 
   {
     id: 105,
-    title: "Margarita",
+    title: "Margarita (1.5oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/margarita.png",
@@ -56,7 +56,7 @@ const menu = [
   },
   {
     id: 106,
-    title: "Mojito",
+    title: "Mojito (1oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/mojito.png",
@@ -66,7 +66,7 @@ const menu = [
   },
   {
     id: 107,
-    title: "Caipirinha",
+    title: "Caipirinha (1oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/caipirinha.jpeg",
@@ -76,7 +76,7 @@ const menu = [
   },
   {
     id: 108,
-    title: "Long Island Iced Tea",
+    title: "Long Island Iced Tea (1.5oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/long-island.png",
@@ -86,7 +86,7 @@ const menu = [
   },
   {
     id: 109,
-    title: "Sex on the Beach",
+    title: "Sex on the Beach (1.5oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/sex-on-the-beach.jpeg",
@@ -96,7 +96,7 @@ const menu = [
   },
   {
     id: 110,
-    title: "Irish Coffee",
+    title: "Irish Coffee (1oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/irish-coffee.jpeg",
@@ -106,7 +106,7 @@ const menu = [
   },
   {
     id: 111,
-    title: "Blue Lagoon",
+    title: "Blue Lagoon (1.5oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/blue-lagoon.png",
@@ -115,7 +115,7 @@ const menu = [
   },
   {
     id: 112,
-    title: "Espresso Martini",
+    title: "Espresso Martini (1.5oz)",
     category: "cocktail's",
     price: 9,
     img: "./images/cocktails/espresso-martini.jpg",
@@ -130,7 +130,7 @@ const menu = [
 
   {
     id: 201,
-    title: "Gin and Tonic",
+    title: "Gin and Tonic (1oz)",
     category: "Mixes & Shots",
     price: 8,
     img: "./images/mixed-drinks/gin-tonic.jpg",
@@ -140,7 +140,7 @@ const menu = [
   },
   {
     id: 202,
-    title: "Rum and Coke",
+    title: "Rum and Coke (1oz)",
     category: "Mixes & Shots",
     price: 8,
     img: "./images/mixed-drinks/rum-coke.png",
@@ -150,7 +150,7 @@ const menu = [
   },
   {
     id: 203,
-    title: "Vodka and Soda",
+    title: "Vodka and Soda (1oz)",
     category: "Mixes & Shots",
     price: 8,
     img: "./images/mixed-drinks/vodka-soda.png",
@@ -160,7 +160,7 @@ const menu = [
   },
   {
     id: 204,
-    title: "Malibu and RedBull",
+    title: "Malibu and RedBull (1oz)",
     category: "Mixes & Shots",
     price: 9,
     img: "./images/mixed-drinks/malibu-redbull.jpg",
@@ -170,7 +170,7 @@ const menu = [
   },
   {
     id: 205,
-    title: "Mixed Drinks",
+    title: "Mixed Drinks (1oz)",
     category: "Mixes & Shots",
     price: "8 ~ 9",
     img: "./images/mixed-drinks/mixed-drinks.png",
@@ -180,7 +180,7 @@ const menu = [
   },
   {
     id: 206,
-    title: "Premium Mixed Drinks",
+    title: "Premium Mixed Drinks (1oz)",
     category: "Mixes & Shots",
     price: "9 ~ 11",
     img: "./images/mixed-drinks/premium-mixed-drinks.png",
@@ -190,7 +190,7 @@ const menu = [
   },
   {
     id: 207,
-    title: "Shots", 
+    title: "Shots (1oz)", 
     category: "Mixes & Shots",
     price: "7 ~ 9",
     img: "./images/mixed-drinks/shots.jpg",
@@ -200,7 +200,7 @@ const menu = [
   },
   {
     id: 208,
-    title: "Premium Shots", 
+    title: "Premium Shots (1oz)", 
     category: "Mixes & Shots",
     price: "10 ~ 12",
     img: "./images/mixed-drinks/premium-shots.jpg",
@@ -243,7 +243,7 @@ const menu = [
   },
   {
     id: 304,
-    title: "Pint",
+    title: "Pint - 600mL",
     category: "Beer's",
     price: 6.0,
     img: "./images/beers/pint.png",
@@ -252,7 +252,7 @@ const menu = [
   },
   {
     id: 305,
-    title: "Half-Pint",
+    title: "Half-Pint - 350mL",
     category: "Beer's",
     price: 4.5,
     img: "./images/beers/half-pint.jpg",
@@ -262,7 +262,7 @@ const menu = [
   },
   {
     id: 306,
-    title: "Panache",
+    title: "Panache - 350mL",
     category: "Beer's",
     price: 7.0,
     img: "./images/beers/panache.png",
@@ -275,7 +275,7 @@ const menu = [
 
   {
     id: 401,
-    title: "Water",
+    title: "Water - 200mL",
     category: "Soft Drinks",
     price: 2.0,
     img: "./images/soft-drinks/agua-luso.png",
@@ -284,7 +284,7 @@ const menu = [
   },
   {
     id: 402,
-    title: "Juice",
+    title: "Juice - 355mL",
     category: "Soft Drinks",
     price: 2.5,
     img: "./images/soft-drinks/juice.png",
@@ -293,7 +293,7 @@ const menu = [
   },
   {
     id: 403,
-    title: "Sparkling Water",
+    title: "Sparkling Water - 200mL",
     category: "Soft Drinks",
     price: 2.5,
     img: "./images/soft-drinks/sparkling-water.png",
@@ -302,7 +302,7 @@ const menu = [
   },
   {
     id: 404,
-    title: "Pop Can",
+    title: "Pop Can - 355mL",
     category: "Soft Drinks",
     price: 6.0,
     img: "./images/soft-drinks/pop.jpg",
@@ -311,7 +311,7 @@ const menu = [
   },
   {
     id: 405,
-    title: "RedBull",
+    title: "RedBull - 250mL",
     category: "Soft Drinks",
     price: 6.0,
     img: "./images/soft-drinks/redbull.jpg",
@@ -333,7 +333,7 @@ const menu = [
   },
   {
     id: 502,
-    title: "Espresso + Cheirinho",
+    title: "Espresso + Cheirinho (0.25oz)",
     category: "Coffee",
     price: 2.5,
     img: "./images/coffee/coffee-cheirinho.png",
