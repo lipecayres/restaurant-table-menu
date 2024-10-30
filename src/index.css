@@ -138,7 +138,6 @@ p {
 .logo {
   object-fit: cover;
   height: auto;
-  width: 100%;
   border-radius: 0.25rem;
 }
 
@@ -158,6 +157,12 @@ p {
   color: #c59d5f;
 }
 
+/*only mobile version*/
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .menu-item {
@@ -173,6 +178,8 @@ p {
   .photo {
     height: 175px;
   }
+
+
 }
 @media screen and (min-width: 1200px) {
   .section-center {
