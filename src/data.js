@@ -193,8 +193,8 @@ const menu = [
     title: "Shots", 
     category: "Mixes & Shots",
     price: "7 ~ 9",
-    img: "./images/mixed-drinks/mixed-drinks.png",
-    shortDesc: "Customize your mix.",
+    img: "./images/mixed-drinks/shots.jpg",
+    shortDesc: "A perfect way to party it up. Cheers!",
     longDesc:
       " Ideal for lively gatherings and celebrations, offering lots of different spirits to suit any taste."
   },
@@ -203,7 +203,7 @@ const menu = [
     title: "Premium Shots", 
     category: "Mixes & Shots",
     price: "10 ~ 12",
-    img: "./images/mixed-drinks/premium-mixed-drinks.png",
+    img: "./images/mixed-drinks/premium-shots.jpg",
     shortDesc: "Crafted with top-shelf spirits.",
     longDesc:
       "Experience luxury in every sip with premium spirits .Top-shelf liqueurs Perfect for those seeking a refined, bold flavor to elevate any occasion."
@@ -217,7 +217,7 @@ const menu = [
     category: "Beer's",
     price: 4.75,
     img: "./images/beers/domestic-beers.png",
-    shortDesc: "Classic. Refreshing. Local.",
+    shortDesc: "Enjou the flavour of our local beers.",
     longDesc:
       "A variety of locally brewed beers, perfect for everyday enjoyment.",
   },
@@ -227,7 +227,7 @@ const menu = [
     category: "Beer's",
     price: 5.0,
     img: "./images/beers/imported-beers.jpeg",
-    shortDesc: "Exotic. Unique. Premium.",
+    shortDesc: "Taste the flavours of the world.",
     longDesc:
       "A selection of international beers with distinctive flavors from around the world.",
   },
@@ -268,7 +268,7 @@ const menu = [
     img: "./images/beers/panache.png",
     shortDesc: "Light. Sweet. Sparkling.",
     longDesc:
-      "A refreshing mix of half-pint beer and 7Up, delivering a crisp and sweet experience.",
+      "A refreshing mix of half-pint beer and 7up, delivering a crisp and sweet experience.",
   },
 
   // Soft Drinks
@@ -329,7 +329,7 @@ const menu = [
     price: 2.0,
     img: "./images/coffee/espresso.jpg",
     shortDesc: "Bold. Intense. Classic.",
-    longDesc: "A shot of rich espresso to kickstart your day.",
+    longDesc: "A shot of rich espresso to kickstart.",
   },
   {
     id: 502,
@@ -338,7 +338,7 @@ const menu = [
     price: 2.5,
     img: "./images/coffee/coffee-cheirinho.png",
     shortDesc: "Espresso with a twist.",
-    longDesc: "A shot of espresso enhanced with a splash of brandy or liquor.",
+    longDesc: "A shot of espresso enhanced with a splash of liqueur or cream.",
   },
   {
     id: 503,
@@ -352,7 +352,7 @@ const menu = [
   },
   {
     id: 504,
-    title: "Americano",
+    title: "Americano (Carioca)",
     category: "Coffee",
     price: 2.0,
     img: "./images/coffee/americano.jpeg",
