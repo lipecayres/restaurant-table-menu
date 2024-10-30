@@ -12,7 +12,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/the-glamour.jpg",
     shortDesc: `Sweet. Elegant. Stylish`,
-    longDesc: `A  cocktail combining gin, lime juice, and sugar cane syrup, topped with a splash of grenadine for a sweet finish. `,
+    longDesc: `A cocktail combining gin, lime juice, and sugar cane syrup, topped with a splash of grenadine for a sweet finish. `,
   },
   {
     id: 102,
@@ -21,7 +21,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/carapacho.png",
     shortDesc: `Tropical. Sweet. Bright.`,
-    longDesc: `A delightful cocktail blending Amarguinha, melon liqueur, Malibu, and Sprite, delivering a light and fruity taste.`,
+    longDesc: `A delightful cocktail blending amarguinha, melon liqueur, malibu, and sprite, delivering a light and fruity taste.`,
   },
   {
     id: 103,
@@ -30,7 +30,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/porto.png",
     shortDesc: `Bold. Herbal. Spirit-forward. `,
-    longDesc: `Combining Macieira , Licor Beirão, and tonic water, this refreshing blend offers a smooth and bittersweet finish, perfect for unwinding. `,
+    longDesc: `Combining macieira , licor beirão and tonic water, this refreshing blend offers a smooth and bittersweet finish, perfect for unwinding. `,
   },
   {
     id: 104,
@@ -39,7 +39,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/brazilian-flag.png",
     shortDesc: `Citrusy. Vibrant. Tropical. `,
-    longDesc: `A lively drink made with cachaça, blue curaçao, soda and orange juice. The colours evokes the vibrant energy of Brazil. `,
+    longDesc: `A lively drink made with cachaça, blue curaçao, lime soda and orange juice. The colours evokes the vibrant energy of Brazil. `,
   },
 
   // classics
