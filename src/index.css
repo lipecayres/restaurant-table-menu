@@ -142,6 +142,10 @@ p {
   border-radius: 0.25rem;
 }
 
+.item-info {
+  min-width: 325px;
+}
+
 .item-info header {
   display: flex;
   justify-content: space-between;
