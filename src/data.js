@@ -299,7 +299,7 @@ const menu = [
     id: 703,
     title: "Red Wine - Bottle",
     category: "Wines",
-    price: 4.5,
+    price: 30,
     img: "./images/wines/red-wine-bottle.jpg",
     shortDesc: "Exquisite. Bold. Elegant.",
     longDesc:
@@ -309,7 +309,7 @@ const menu = [
     id: 704,
     title: "White Wine - Bottle",
     category: "Wines",
-    price: 6.0,
+    price: 30,
     img: "./images/wines/white-wine-bottle.jpg",
     shortDesc: "Fresh. Vibrant. Aromatic.",
     longDesc:
