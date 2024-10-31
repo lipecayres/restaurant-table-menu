@@ -12,7 +12,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/the-glamour.jpg",
     shortDesc: `Sweet. Elegant. Stylish`,
-    longDesc: `A cocktail combining gin, lime juice, and sugar cane syrup, topped with a splash of grenadine for a sweet finish. `,
+    longDesc: `A cocktail combining gin, lime juice and sugar cane syrup, topped with a splash of grenadine for a sweet finish. `,
   },
   {
     id: 102,
@@ -21,7 +21,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/carapacho.png",
     shortDesc: `Tropical. Sweet. Bright.`,
-    longDesc: `A delightful cocktail blending amarguinha, melon liqueur, malibu, and sprite, delivering a light and fruity taste.`,
+    longDesc: `A delightful cocktail blending amarguinha, melon liqueur, malibu and sprite, delivering a light and fruity taste.`,
   },
   {
     id: 103,
@@ -30,7 +30,7 @@ const menu = [
     price: 12,
     img: "./images/cocktails/porto.png",
     shortDesc: `Bold. Herbal. Spirit-forward. `,
-    longDesc: `Combining macieira , licor beirão and tonic water, this refreshing blend offers a smooth and bittersweet finish, perfect for unwinding. `,
+    longDesc: `Combining macieira, licor beirão and tonic water, this refreshing blend offers a smooth and bittersweet finish, perfect for unwinding. `,
   },
   {
     id: 104,
@@ -190,23 +190,23 @@ const menu = [
   },
   {
     id: 207,
-    title: "Shots (1oz)", 
+    title: "Shots (1oz)",
     category: "Mixes & Shots",
     price: "7 ~ 9",
     img: "./images/mixed-drinks/shots.jpg",
     shortDesc: "A perfect way to party it up. Cheers!",
     longDesc:
-      " Ideal for lively gatherings and celebrations, offering lots of different spirits to suit any taste."
+      " Ideal for lively gatherings and celebrations, offering lots of different spirits to suit any taste.",
   },
   {
     id: 208,
-    title: "Premium Shots (1oz)", 
+    title: "Premium Shots (1oz)",
     category: "Mixes & Shots",
     price: "10 ~ 12",
     img: "./images/mixed-drinks/premium-shots.jpg",
     shortDesc: "Crafted with top-shelf spirits.",
     longDesc:
-      "Experience luxury in every sip with premium spirits .Top-shelf liqueurs Perfect for those seeking a refined, bold flavor to elevate any occasion."
+      "Experience luxury in every sip with premium spirits .Top-shelf liqueurs Perfect for those seeking a refined, bold flavor to elevate any occasion.",
   },
 
   // Beers
@@ -271,6 +271,51 @@ const menu = [
       "A refreshing mix of half-pint beer and 7up, delivering a crisp and sweet experience.",
   },
 
+  //
+  //   Wines
+  //
+
+  {
+    id: 701,
+    title: "House Red Wine - 6oz",
+    category: "Wines",
+    price: 6,
+    img: "./images/wines/red-wine.jpg",
+    shortDesc: "Rich. Smooth. Local.",
+    longDesc:
+      "A house red wine with smooth, full-bodied flavors. Perfect for everyday enjoyment with a touch of local character.",
+  },
+  {
+    id: 702,
+    title: "House White Wine - 6oz",
+    category: "Wines",
+    price: 6,
+    img: "./images/wines/white-wine.png",
+    shortDesc: "Crisp. Light. Refreshing.",
+    longDesc:
+      "Our house white wine, offering bright, refreshing flavors with subtle hints of fruit. Ideal for a light, easygoing experience.",
+  },
+  {
+    id: 703,
+    title: "Red Wine - Bottle",
+    category: "Wines",
+    price: 4.5,
+    img: "./images/wines/red-wine-bottle.jpg",
+    shortDesc: "Exquisite. Bold. Elegant.",
+    longDesc:
+      "A premium bottle of red wine showcasing deep, complex flavors and a smooth finish. Perfect for enjoying on its own.",
+  },
+  {
+    id: 704,
+    title: "White Wine - Bottle",
+    category: "Wines",
+    price: 6.0,
+    img: "./images/wines/white-wine-bottle.jpg",
+    shortDesc: "Fresh. Vibrant. Aromatic.",
+    longDesc:
+      "A bottle of white wine with a vibrant offering notes of citrus and tropical fruit. A satisfying choice for any occasion.",
+  },
+
   // Soft Drinks
 
   {
@@ -318,7 +363,6 @@ const menu = [
     shortDesc: "Energizing. Bold. Refreshing.",
     longDesc: "A can of RedBull to give you a burst of energy.",
   },
-  
 
   // coffee
 
